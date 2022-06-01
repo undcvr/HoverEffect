@@ -1,0 +1,33 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+.canva-container {
+    width: 490px;
+    height: 480px;
+    overflow: hidden;
+}
+.canva {
+    width: 530px;
+    height: 520px;
+}
+.sy {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0 !important;
+    user-select: none;
+    mix-blend-mode: difference;
+}
+.cursor {
+    z-index: -1;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+}
